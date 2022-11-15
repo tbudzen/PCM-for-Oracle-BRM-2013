@@ -1,0 +1,44 @@
+# number of field entries allocated 20, used 16
+0 PIN_FLD_POID           POID [0] NULL poid pointer
+0 PIN_FLD_RESULTS       ARRAY [1] allocated 20, used 4
+1     PIN_FLD_AMOUNT       DECIMAL [345] 0.000000000010000
+1     PIN_FLD_AMOUNT       DECIMAL [27] -0.500000000000000
+1     PIN_FLD_AMOUNT       DECIMAL [1] 0.053450000000000
+1     PIN_FLD_AMOUNT       DECIMAL [2] 0.034250000000000
+0 PIN_FLD_TEMPLATE        STR [0] "select X from /account where F1 like V1 "
+0 PIN_FLD_FLAGS           INT [0] 512
+0 TP_FLD_PAYMENT_INFO   ARRAY [6] allocated 20, used 1
+1     PIN_FLD_AMOUNT       DECIMAL [0] 65.000000000000000
+0 TP_FLD_PAYMENT_INFO   ARRAY [4] allocated 20, used 1
+1     PIN_FLD_AMOUNT       DECIMAL [0] 45.000000000000000
+0 TP_FLD_PAYMENT_INFO   ARRAY [1] allocated 20, used 1
+1     PIN_FLD_AMOUNT       DECIMAL [0] 15.000000000000000
+0 TP_FLD_PAYMENT_INFO   ARRAY [3] allocated 20, used 1
+1     PIN_FLD_AMOUNT       DECIMAL [0] 35.000000000000000
+0 TP_FLD_PAYMENT_INFO   ARRAY [2] allocated 20, used 1
+1     PIN_FLD_AMOUNT       DECIMAL [0] 25.000000000000000
+0 TP_FLD_PAYMENT_INFO   ARRAY [5] allocated 20, used 1
+1     PIN_FLD_AMOUNT       DECIMAL [0] 55.000000000000000
+0 TP_FLD_REFUND_INFO   SUBSTRUCT [0] allocated 20, used 5
+1     PIN_FLD_ADDRESS         STR [0] "Adres testowy"
+1     TP_FLD_REFUND_METHOD    STR [0] "1"
+1     TP_FLD_CONTR_NAME       STR [0] "Test 1"
+1     PIN_FLD_BANK_ACCOUNT    STR [0] "0.0.0.2-104244"
+1     TP_FLD_CONTR_ADDR       STR [0] "Adres 1"
+0 PIN_FLD_SERVICE_OBJ    POID [0] NULL poid pointer
+0 PIN_FLD_ARGS          ARRAY [1] allocated 20, used 1
+1     PIN_FLD_POID           POID [0] NULL poid pointer
+0 PIN_FLD_ARGS          ARRAY [1024] allocated 20, used 1
+1     PIN_FLD_POID           POID [0] NULL poid pointer
+0 PIN_FLD_REFUND       SUBSTRUCT [8] allocated 20, used 5
+1     PIN_FLD_ADDRESS         STR [0] "Adres testowy 2"
+1     TP_FLD_REFUND_METHOD    STR [0] "1"
+1     TP_FLD_CONTR_NAME       STR [0] "Test 2"
+1     PIN_FLD_BANK_ACCOUNT    STR [0] "0.0.0.3-104277"
+1     TP_FLD_CONTR_ADDR       STR [0] "Adres 2"
+0 PIN_FLD_REFUND       SUBSTRUCT [7] allocated 20, used 5
+1     PIN_FLD_ADDRESS         STR [0] "Adres testowy"
+1     TP_FLD_REFUND_METHOD    STR [0] "1"
+1     TP_FLD_CONTR_NAME       STR [0] "Test 1"
+1     PIN_FLD_BANK_ACCOUNT    STR [0] "0.0.0.2-104244"
+1     TP_FLD_CONTR_ADDR       STR [0] "Adres 1"
