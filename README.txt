@@ -21,7 +21,3 @@ This module requires -lportal & -lpcmext libraries.
 USAGE
 
 See /examples.
-
-COPYRIGHT AND LICENCE
-
-Copyright (C) 2013 by Accenture.
